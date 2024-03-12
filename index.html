@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- styles -->
         <link rel="stylesheet" href="./styles/style.css" type="text/css">
+        <link rel="stylesheet" href="./styles/phone.css" type="text/css">
+        <link rel="stylesheet" href="./styles/header-footer.css" type="text/css">
         <!-- icons -->
         <link rel="icon" href="favicon.png"> <!--32х32-->
         <link rel="apple-touch-icon" href="./src/icons/touch-icon-iphone.png"> <!--60х60-->
@@ -33,7 +35,27 @@
         <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
     </head>
     <body>
+        <header>
+            <div class="title">
+                <img class="logo" src="./src/images/phone_logo.png" alt="logo">
+                <div class="label">
+                    <p class="label-p1">SMART<span>shop</span></p>
+                    <p class="label-p2">Все смартфоны у нас</p>
+                </div>
+            </div>
+            
+            <nav>
+                <a class="button" href="#">главная</a>
+                <a class="button" href="#">каталог</a>
+                <a class="button" href="#">о компании</a>
+                <a class="cart" href="#">
+                    <img src="./src/images/корзина-removebg-preview.png" alt="корзина">
+                    <span id="header-cart-orders-numbers">0</span>
+                </a>
+            </nav>
+        </header>
         <script src="./js/prod.js"></script>
         <script src="./js/main.js"></script>
     </body>
 </html>
+<!-- https://github.com/chelovek-gorod/smart-shop -->

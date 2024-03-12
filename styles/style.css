@@ -1,26 +1,7 @@
-@font-face {
-    font-family: "Roboto-Black";
-    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
-    font-style: normal;
-    font-weight: 900;
-}
-@font-face {
-    font-family: "Roboto-Regular";
-    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: "Roboto-Italic";
-    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
-    font-style: italic;
-    font-weight: normal;
-}
-
 body {
     font-family: "Roboto-Regular", Arial, sans-serif;
     /*text-align: center;*/
-    color: #ffffff;
+    color: #000000;
     background-color: #000000;
     /**/
     -webkit-touch-callout: none; /* iOS Safari */
@@ -30,7 +11,6 @@ body {
     -ms-user-select: none;       /* Internet Explorer/Edge */
     user-select: none;           /* Non-prefixed version, currently
                                 not supported by any browser */
-    height: 100vh;
     padding: 0;
     margin: 0;
     display: flex;
@@ -38,12 +18,5 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center;
-}
-.phone-card {
-    width: 340px;
-    height: 120px;
-    background-color: #00ff00;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 20px;
+    margin-top: 120px;
 }
